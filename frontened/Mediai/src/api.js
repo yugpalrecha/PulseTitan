@@ -1,5 +1,5 @@
-const BASE_URL = "http://localhost:5000/api";
-
+//const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://pulsetitan.onrender.com/api";
 
 // HEALTH SCORE
 export async function getHealthScore(data) {
