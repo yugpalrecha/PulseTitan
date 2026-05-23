@@ -71,7 +71,7 @@ app.use("/api/medicalquestion", medicalQuestionRoutes);
 // Serve Frontend (Vite dist folder)
 app.use(express.static(path.join(__dirname, "frontened/Mediai/dist")));
 
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
     res.sendFile(
         path.join(__dirname, "frontened/Mediai/dist/index.html")
     );
